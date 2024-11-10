@@ -1,8 +1,8 @@
 /* 1. Custom Fonts */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+   font-family: 'Roboto', sans-serif;
+    background-color: #000080; /* Navy blue */
+    color: #fff; /* Change text color to white for contrast */
     margin: 0;
     padding: 0;
 }
