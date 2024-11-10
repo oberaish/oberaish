@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* 1. Custom Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+/* 2. Color Scheme Customization */
 nav {
     background-color: #333;
     padding: 10px;
@@ -16,9 +15,9 @@ nav {
 }
 
 nav a {
-    color: orange;
+    color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     font-weight: bold;
 }
 
@@ -26,18 +25,42 @@ nav a:hover {
     color: #007bff;
 }
 
+/* 3. Layout Adjustments: Margins and Padding */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    <div class="content">
-        <h1>Welcome to My Website</h1>
-        <p>This website explores the rich diversity of Indian cuisine...</p>
-        <img src="indian_food.jpg" alt="Indian food">
-        <ul>
-            <li>North India - Butter Chicken, Naan</li>
-            <li>South India - Dosa, Sambar</li>
-            <li>East India - Fish Curry, Rasgulla</li>
-            <li>West India - Vada Pav, Dhokla</li>
-        </ul>
-    </div>
-</body>
-</html>
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    padding: 8px 0;
+    color: #555;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+}
 
